@@ -1,7 +1,7 @@
 // these are the two URLs google apps scripts gives you for your web app.  One for development and one for production
 // You will get these values when you publish your google apps script as a web app
 const dev_prefix=""  // look like this:  https://script.google.com/macros/s/ZKfycbxjS_raPupJx9G4nmYhe8C2poQH6bn_UoUV2puF9k0I/dev
-const prod_prefix="" // looks like this: https://script.google.com/macros/s/XKfycbw-QDAs00bQmVbvINTipLA4OvR_Zv83P2IoyH-Vp6GRcEWLhMU/exec
+const prod_prefix="https://script.googleusercontent.com/macros/echo?user_content_key=TGOL7JGl8nJ3R1sRDIuO7wT-6YBfYGJthIQ1gEnTzSnYqEo2VOuZLICinlnO9UrU15vSyCuUIbAG6HEVoSmtOk14ESBeALfHm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnJR-WVcAl6eKHx1ozLZXdyoRi8e5ZqmAZtCjic9gwcFaQfWj5S43CTBygnehtuM4VrDbm71o4Po5mF6D9AQXxeC-4TX5dd7BAA&lib=Mr0DklkUVCJYBB4QEcwVd3aGXRhuijq6I" // looks like this: https://script.google.com/macros/s/XKfycbw-QDAs00bQmVbvINTipLA4OvR_Zv83P2IoyH-Vp6GRcEWLhMU/exec
 let prefix=dev_prefix // set this to configure you code for working with your dev or production code on google apps script
 const dealy_seconds = 4 // how long data validation messages are visible
 
